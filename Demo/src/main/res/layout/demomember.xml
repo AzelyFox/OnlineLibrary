@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/scr_member_reg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="사용할 ID를 입력하세요"/>
+            <EditText
+                android:id="@+id/scr_member_reg_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="사용할 PW를 입력하세요"/>
+            <EditText
+                android:id="@+id/scr_member_reg_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PW"
+                android:inputType="textPassword"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="사용할 NICKNAME을 입력하세요"/>
+            <EditText
+                android:id="@+id/scr_member_reg_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="NICKNAME"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="사용할 EMAIL을 입력하세요"/>
+            <EditText
+                android:id="@+id/scr_member_reg_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="EMAIL"
+                android:inputType="textEmailAddress"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="이메일 인증을 사용할까요?"/>
+            <CheckBox
+                android:id="@+id/scr_member_reg_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USE EMAIL VERIFICATION"
+                android:layout_gravity="center_horizontal" />
+            <Button
+                android:id="@+id/scr_member_reg_register"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="REGISTER"
+                android:textColor="#222222" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/scr_member_reg_changer"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:text="CLICK HERE TO LOGIN"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scr_member_log_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="로그인할 ID를 입력하세요"/>
+            <EditText
+                android:id="@+id/scr_member_log_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="로그인할 PW를 입력하세요"/>
+            <EditText
+                android:id="@+id/scr_member_log_pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PW"
+                android:inputType="textPassword"/>
+            <Button
+                android:id="@+id/scr_member_log_login"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="LOGIN"
+                android:textColor="#222222" />
+            <Button
+                android:id="@+id/scr_member_log_signout"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="SIGN OUT"
+                android:textColor="#222222" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="이메일을 이용해 계정을 찾습니다"/>
+            <EditText
+                android:id="@+id/scr_member_log_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="EMAIL"
+                android:inputType="textEmailAddress"/>
+            <Button
+                android:id="@+id/scr_member_log_findacc"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="FIND ACCOUNT"
+                android:textColor="#222222" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/scr_member_log_changer"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:text="CLICK HERE TO REGISTER"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
