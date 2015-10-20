@@ -2,5 +2,157 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#333333">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="ONLINE LIBRARY : DEMO MANAGE"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scr_manage_set_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ENTER NOTICE TITLE"/>
+                <EditText
+                    android:id="@+id/scr_manage_set_notice_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NOTICE TITLE"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ENTER NOTICE TITLE"/>
+                <EditText
+                    android:id="@+id/scr_manage_set_notice_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="NOTICE CONTENT"/>
+                <Button
+                    android:id="@+id/scr_manage_set_notice_apply"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textSize="16dp"
+                    android:background="#333333"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3px"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#444444"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ENTER SERVER STATE (0:normal ,1:maintenance ,2:server down)"/>
+                <EditText
+                    android:id="@+id/scr_manage_set_server_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="SERVER STATE"
+                    android:inputType="number"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="ENTER EXPLAIN OF STATE"/>
+                <EditText
+                    android:id="@+id/scr_manage_set_server_explain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="REASON OF CURRENT STATE"/>
+                <Button
+                    android:id="@+id/scr_manage_set_server_apply"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="APPLY"
+                    android:textSize="16dp"
+                    android:background="#333333"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:id="@+id/scr_manage_set_changer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:text="CLICK HERE TO CHECK"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/scr_manage_check_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/scr_manage_check_get_notice"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="GET NOTICE"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="#333333"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"/>
+            <Button
+                android:id="@+id/scr_manage_check_get_state"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="GET STATE"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:background="#333333"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/scr_manage_check_changer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#333333"
+            android:text="CLICK HERE TO SET"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
 </LinearLayout>

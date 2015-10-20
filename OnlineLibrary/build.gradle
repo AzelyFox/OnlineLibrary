@@ -24,7 +24,7 @@ task jarTask(type: Jar) {
 }
 
 task createJarWithDependencies(type: Jar) {
-    baseName = "OnlineLibrary-Full"
+    baseName = "OnlineLibrary"
 
     from {
         configurations.compile.collect {

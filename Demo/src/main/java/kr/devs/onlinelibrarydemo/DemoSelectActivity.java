@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
-
 /**
  * Created by TK in DEVS
  */
@@ -41,7 +40,8 @@ public class DemoSelectActivity extends Activity {
         box_manage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent mover = new Intent(DemoSelectActivity.this,DemoManageActivity.class);
+                startActivity(mover);
             }
         });
 
