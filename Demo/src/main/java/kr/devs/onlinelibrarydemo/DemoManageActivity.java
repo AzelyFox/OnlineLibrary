@@ -141,6 +141,8 @@ public class DemoManageActivity extends Activity {
             }
         });
 
+        mManage.connect();
+
         set_notice_apply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
