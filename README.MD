@@ -1,44 +1,26 @@
-### 주의! 현재 사용 불가능한 온라인 기능들을 포함하고 있습니다
+<h1 align="center">
+  <br>
+  <p>Online Library</p>
+</h1>
 
+<p align="center">
+    <a href="#license">
+        <img src="https://img.shields.io/github/license/LIMECAKE/OnlineLibrary?style=flat-square" />
+    </a>
+    <a href="https://github.com/LIMECAKE/OnlineLibrary/releases">
+        <img src="https://img.shields.io/github/v/release/LIMECAKE/OnlineLibrary?style=flat-square" />
+    </a>
+    <a href="https://github.com/LIMECAKE/OnlineLibrary/issues">
+        <img src="https://img.shields.io/badge/SUPPORT-END-black?style=flat-square" />
+    </a>
+</p>
 
-jar형식의 안드로이드 라이브러리로서, 여러 온라인 작업을 최대한 간단히 구현할 수 있게 도와주는 라이브러리입니다.
+<p align="center">
+A Android library helps simple online features (chat, member management) easily
+</p>
 
+## Disclaimer
+Due to server maintenance, This library features are not working properly anymore.
 
-채팅 - node.js , socket.io를 사용하여 실시간 채팅이 이루어지며, DEVX 서버가 끊기지 않는 한 무제한으로 사용 가능합니다.
-
-
-멤버 - php와 mysql을 사용하여 회원정보를 저장하며, 어플리케이션당 1000명의 회원까지 등록할 수 있습니다.
-
-
-
-[제공하는 기능]
-
--CHAT-
-
-ROOM_NUM에 따른 방 자동생성 및 입장
-
-메시지 전송, 닉네임 변경, 타이핑 현황 표시
-
-유저 입장, 퇴장 알림 및 전체 인원 알림
-
-node.js , socket.io를 사용한 실시간 채팅
-
-
-
--MEMBER-
-
-유저의 아이디,비밀번호,닉네임,이메일을 이용한 회원가입
-
-이메일 인증 기능을 사용할 수 있음
-
-로그인, 이메일로 계정찾기, 회원탈퇴 기능 제공
-
-
-
--MANAGE-
-
-APP_CODE에 따른 공지사항,상태 저장
-
-공지사항마다 각각 고유 번호를 가져서 '다음부터 열지 않음' 기능을 사용가능
-
-0,1,2 등으로 정상,점검,서버다운 등 여러 상황과 그에대한 설명을 알릴 수 있음
+## License
+[MIT](LICENSE) © 2020 LimeCake <limecake23@gmail.com>
