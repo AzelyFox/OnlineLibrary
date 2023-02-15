@@ -5,12 +5,12 @@
 
 <p align="center">
     <a href="#license">
-        <img src="https://img.shields.io/github/license/LIMECAKE/OnlineLibrary?style=flat-square" />
+        <img src="https://img.shields.io/github/license/AzelyFox/OnlineLibrary?style=flat-square" />
     </a>
-    <a href="https://github.com/LIMECAKE/OnlineLibrary/releases">
-        <img src="https://img.shields.io/github/v/release/LIMECAKE/OnlineLibrary?style=flat-square" />
+    <a href="https://github.com/AzelyFox/OnlineLibrary/releases">
+        <img src="https://img.shields.io/github/v/release/AzelyFox/OnlineLibrary?style=flat-square" />
     </a>
-    <a href="https://github.com/LIMECAKE/OnlineLibrary/issues">
+    <a href="https://github.com/AzelyFox/OnlineLibrary/issues">
         <img src="https://img.shields.io/badge/SUPPORT-END-black?style=flat-square" />
     </a>
 </p>
